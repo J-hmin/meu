@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'HSGaeulSenggak20';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSGaeulSenggak20.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+body{
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+}
+/* 탑메뉴 */
+.header {
+    width: 1440px;
+    height: 130px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo {
+    width: 98px;
+    position: absolute;
+    top:35px;
+    left:10px;
+    z-index: 101;
+}
+.topmenu {
+    position: absolute;
+    right: 0;
+    z-index: 101;
+    width: 380px;
+    top:0px;
+}
+.topmenu ul{
+    list-style-type: none;
+}
+.topmenu ul li {
+    width: 72px;
+    float: left;
+    text-align: center;
+    margin: 0px 6px;
+}
+
+.topmenu ul li a {
+    font-family: 'HSGaeulSenggak20';
+    font-size: 12px;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px  #6838F2;
+}
+.topmenu ul li a:hover{
+    color: #6838F2;
+    font-weight: bold;
+}
+
+/* 네비게이션 */
+.wrapper_gnb{
+    width: 1920px;
+    position: relative;
+
+}
+.gnb {
+    width:1000px;
+    float: right;
+    margin-right: 347px;
+    margin-top: -90px;
+}
+.gnb ul{
+    list-style-type: none;
+    text-align: center;
+}
+.gnb ul li {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px 17px;
+}
+
+.gnb ul li a {
+    font-family: 'HSGaeulSenggak20';
+    height: 100%;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 1px 1px 5px  #6838F2;
+    color: #ffffff;
+}
+.gnb ul li a:hover{
+    color: #6838F2;
+    font-weight: bold;
+}
+.category{
+    width: 50px;
+    height: 50px;
+    /* float: right; */
+    position: absolute;
+    right: 150px;
+    top: -50px;
+    z-index: 100;
+    
+}
+.category a {
+    color: #ffffff;
+    width: 50px;
+}
+.category a img  {
+    width: 40px;
+}
+
+/* 하위메뉴 */
+.wrapper_lnb{
+    width: 1920px;
+    margin: 0;
+    height: 390px;
+    background-color: #ffffff;
+    /* opacity: 0.5; */
+    position: absolute;
+    top: -130px;
+    /* display: none; */
+}
+.cate_lnb_menu{
+    width:1000px;
+    height: 390px;
+    margin: 72px 31px 0px 652px;
+    list-style-type: none;
+  
+}
+.cate_lnb_menu>li {
+    display: inline-block;
+    float : left;
+    width: 248px;
+    height: 320px;
+    margin-top:0px;
+    
+}
+.cate_lnb_menu a {
+    font-family: 'HSGaeulSenggak20';
+    height: 100%;
+    width: 100%;
+    /* line-height: 50px; */
+    text-decoration: none;
+    
+    font-size: 18px;
+    /* text-shadow: 1px 1px 5px  #6838F2; */
+    color: #5E5E5E;
+}
+.cate_lnb_menu a:hover{
+    color:#6838F2;
+    font-weight: bold;
+}
+.cate_lnb_sub{
+    list-style-type: none;
+    margin-left: -38px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 240px;
+    height: 320px;
+}
+.cate_lnb_sub>li{
+    margin-top: 14px;
+}
+
+.dia{
+    color:#F442FF;
+    text-align: center;
+    width: 60px;
+    margin-bottom: 28px;
+}
+.pr{
+    margin-left: -15px;
+}
+
+
+/* 슬라이드이미지 */
+
+.wrapper_slide{
+    width: 1920px;
+    height: 450px;
+    z-index: -10;
+}
+.slide{
+    position: absolute;
+    top: 0;
+    z-index: -10;
+}
+.slide>p{
+    position: absolute;
+    top: 227px;
+    left: 840px;
+    color: #F442FF;
+    font-family: 'HSGaeulSenggak20';
+    text-shadow: 3px 3px 2px #ffffff;
+    font-size: 50px;
+}
+
+.contents{
+    width: 1920px;
+    height: 1330px;
+    background-color: #ffffff;
+}
+
+.Introduction{
+    width: 1920px;
+    height: 400px;
+}
+.Introduction>p{
+    font-size: 50px;
+    width: 380px;
+    height: 400px;
+    margin: 0 auto;
+    line-height: 400px ;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'nanumsquare';
+}
+
+.wrapper_cont{
+    width: 1920px;
+    height: 930px;
+    margin: 0;
+}
+.content{
+    width: 950px;
+    float: left;
+}
+
+.Intro_more{
+    float: left;
+    width: 940px;
+    height: 680px;   
+}
+
+.more{
+    padding-left: 110px;
+    padding-right: 220px;
+    padding-top: 0px;
+    margin-top: -26px;
+}
+
+.more>p{
+    font-size: 24px;
+    
+}
+
+/* 푸터영역 */
+.footer{
+    width: 1920px;
+    height: 280px;
+    background: #EFEFEF;
+}
+.footer_wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    height: 280px;
+   
+}
+
+.footer_logo{
+    width: 220px;
+    float: left;
+    line-height: 280px;
+    height: 280px;
+    text-align: center;
+}
+.footer_cortent{
+    width: 1220px;
+    height: 280px;
+    float: left;
+}
+
+#ft_fp{
+    margin-top: 72px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-family: 'nanumsquare';
+}
+
+.ft_ny{
+    font-family: 'nanumsquare';
+    font-size: 12px;
+    margin-bottom: -7px;
+    margin-left: 10px;
+}
